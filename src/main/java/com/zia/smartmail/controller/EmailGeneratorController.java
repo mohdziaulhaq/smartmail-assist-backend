@@ -19,4 +19,9 @@ public class EmailGeneratorController {
         return ResponseEntity.ok(response);
 
     }
+
+    @GetMapping("/hello")
+    public ResponseEntity<String> checkHello() {
+        return ResponseEntity.ok("Hello");
+    }
 }
