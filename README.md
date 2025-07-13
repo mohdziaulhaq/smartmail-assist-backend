@@ -122,7 +122,9 @@ docker run -e GEMINI_API_KEY=your_key -p 8080:8080 smartmail-assist
 | ------ | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `POST` | `/api/email/generate` | Generate a professional reply. **Body**: `{ "from": "alice@example.com", "to": "bob@example.com", "subject": "", "body": "<original email>" }` **Returns**: plain‑text reply. |
 
-Full schema available in Swagger.
+👉 **Interactive API Docs (Swagger UI)**: [https://smartmail-assist.onrender.com/swagger-ui/index.html](https://smartmail-assist.onrender.com/swagger-ui/index.html)
+
+Full OpenAPI schema is available at `/v3/api-docs`.
 
 ---
 
