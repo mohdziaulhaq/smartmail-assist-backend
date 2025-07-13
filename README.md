@@ -152,6 +152,18 @@ Use the above links to test the React UI or call the `/api/email/generate` endpo
 
 ---
 
+## API Reference
+
+| Method | Endpoint              | Description                                                                                                                                                                   |
+| ------ | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `POST` | `/api/email/generate` | Generate a professional reply. **Body**: `{ "from": "alice@example.com", "to": "bob@example.com", "subject": "", "body": "<original email>" }` **Returns**: plain‑text reply. |
+
+👉 **Interactive API Docs (Swagger UI)**: [https://smartmail-assist.onrender.com/swagger-ui/index.html](https://smartmail-assist.onrender.com/swagger-ui/index.html)
+
+Full OpenAPI schema is available at `/v3/api-docs`.
+
+---
+
 ## Learnings
 
 Building SmartMail‑Assist taught me to:
